@@ -1,0 +1,12 @@
+version: '2'
+services:
+    gw-postgresql:
+        container_name: gw-postgresql
+        image: postgres:9.5.1
+        # volumes:
+        #     - ~/volumes/jhipster/gw/postgresql/:/var/lib/postgresql/
+        environment:
+            - POSTGRES_USER=gw
+            - POSTGRES_PASSWORD=
+        ports:
+            - 5432:5432

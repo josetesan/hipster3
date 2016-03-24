@@ -1,0 +1,25 @@
+{
+  "generator-jhipster": {
+    "jhipsterVersion": "3.0.0",
+    "baseName": "m2",
+    "packageName": "com.codetron.microservices.m2",
+    "packageFolder": "com/codetron/microservices/m2",
+    "serverPort": "8082",
+    "authenticationType": "jwt",
+    "hibernateCache": "ehcache",
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": "no",
+    "buildTool": "gradle",
+    "jwtSecretKey": "d05ba728fd522b53458382f63176feed51700cfc",
+    "enableTranslation": false,
+    "applicationType": "microservice",
+    "testFrameworks": [
+      "gatling",
+      "cucumber"
+    ],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
